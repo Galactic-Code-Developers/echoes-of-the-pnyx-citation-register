@@ -10,7 +10,8 @@ This repository preserves the structured citation register used to document the 
 - Records: **48**
 - Fields: **11**
 - Main file: `data/citation-register.csv`
-- Zenodo DOI: **pending first Zenodo publication**
+- Zenodo record: **https://zenodo.org/records/22071579**
+- DOI: **10.5281/zenodo.22071579**
 
 The register is a **documentary source inventory, not a statistical sample** of everything Americans thought about Greece. Row counts should not be interpreted as prevalence estimates. Several documents generate more than one analytical record, and the corpus reflects survival, digitization, searchability, and the defined research scope.
 
@@ -20,15 +21,13 @@ See [`CODEBOOK.md`](CODEBOOK.md) for definitions of all fields and coding cautio
 
 ## Recommended citation
 
-Until the Zenodo DOI is issued:
+> Valamontes, Antonios. 2026. _Echoes of the Pnyx: Citation Register_. Version 1.0.0. Zenodo. https://doi.org/10.5281/zenodo.22071579
 
-> Valamontes, Antonios. 2026. _Echoes of the Pnyx: Citation Register_. Version 1.0.0. GitHub research data repository.
-
-After Zenodo publication, cite the version DOI shown on the Zenodo record. The repository README should then be updated with the DOI badge and canonical citation.
+The Zenodo DOI is the canonical citation for the archived v1.0.0 release. This GitHub repository remains the working/version-control home for future revisions.
 
 ## Versioning policy
 
-GitHub is the working/version-control home. Zenodo is the preservation and DOI layer. Each substantive public data release should receive a semantic version tag (`v1.0.0`, `v1.1.0`, etc.) and a corresponding Zenodo version. Do not overwrite a published Zenodo version; create a new version instead.
+GitHub is the working/version-control home. Zenodo is the preservation and DOI layer. Each substantive public data release should receive a semantic version (`v1.0.0`, `v1.1.0`, etc.) and a corresponding Zenodo version. Do not overwrite a published Zenodo version; create a new version instead.
 
 ## Relationship to the book
 
