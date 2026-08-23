@@ -1,0 +1,35 @@
+name: One-shot citation register correction
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-register.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix-register:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Correct typo and normalize line endings
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('data/citation-register.csv')
+          s = p.read_text(encoding='utf-8').replace('\r\n','\n').replace('\r','\n')
+          s = s.replace('Anti-Federalalists', 'Anti-Federalists')
+          p.write_text(s, encoding='utf-8', newline='\n')
+          PY
+      - name: Commit correction if needed
+        run: |
+          if git diff --quiet -- data/citation-register.csv; then
+            echo 'No correction needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/citation-register.csv
+          git commit -m 'Correct citation register typo and normalize line endings'
+          git push
