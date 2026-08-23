@@ -1,0 +1,30 @@
+{
+  "title": "Echoes of the Pnyx: Citation Register",
+  "creators": [
+    {
+      "name": "Valamontes, Antonios"
+    }
+  ],
+  "description": "Structured documentary citation register accompanying the book Echoes of the Pnyx: Athenian Democracy and the Making of the American Constitutional Order. The register records founding-era and closely related references to Athens, Greek political institutions, classical exempla, intermediary sources, rhetorical use, and verification status. It is a documentary source inventory rather than a statistical sample.",
+  "version": "1.0.0",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "Athenian democracy",
+    "American Founding",
+    "classical reception",
+    "Federalist Papers",
+    "Anti-Federalists",
+    "constitutional history",
+    "research data",
+    "citation register"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Galactic-Code-Developers/echoes-of-the-pnyx-citation-register",
+      "relation": "isSupplementTo"
+    }
+  ]
+}
