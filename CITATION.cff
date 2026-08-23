@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this research data, please cite the Zenodo version DOI once available."
+title: "Echoes of the Pnyx: Citation Register"
+type: dataset
+authors:
+  - family-names: "Valamontes"
+    given-names: "Antonios"
+version: 1.0.0
+date-released: 2026-08-23
+license: CC-BY-4.0
+repository-code: "https://github.com/Galactic-Code-Developers/echoes-of-the-pnyx-citation-register"
+keywords:
+  - Athenian democracy
+  - American Founding
+  - classical reception
+  - Federalist Papers
+  - Anti-Federalists
+  - constitutional history
+  - citation register
